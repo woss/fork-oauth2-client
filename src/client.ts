@@ -335,6 +335,7 @@ export class OAuth2Client {
   private serverMetadata: ServerMetadataResponse | null = null;
 
   private discover(): Promise<void> {
+    // Never discover twice
     if (this.discoveryPromise === undefined) {
       this.discoveryPromise = this.doDiscover();
     }
