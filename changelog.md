@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.3.0 (????-??-??)
+3.3.0 (2025-07-30)
 ------------------
 
 * OAuth2 token operations may now return an `extraParams` property, which is an
