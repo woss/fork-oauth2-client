@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.3.1 (????-??-??)
+3.3.1 (2025-09-09)
 ------------------
 
 * #193: Fix race condition when multiple function calls are trying to do
