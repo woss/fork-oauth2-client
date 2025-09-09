@@ -1,6 +1,13 @@
 Changelog
 =========
 
+3.3.1 (????-??-??)
+------------------
+
+* #193: Fix race condition when multiple function calls are trying to do
+  endpoint discovery. (@lukybrody)
+
+
 3.3.0 (2025-07-30)
 ------------------
 
@@ -10,8 +17,6 @@ Changelog
   (@ericleib, @blarralde)
 * The OAuth2Token object now has a `scope` property, containing a list of
   scopes the server returned *if* the server returned this. (@ericleib)
-* #193: Fix race condition when multiple function calls are trying to do
-  endpoint discovery. (@lukybrody)
 
 
 3.2.0 (2025-04-23)
